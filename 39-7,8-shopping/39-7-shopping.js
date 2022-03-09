@@ -39,6 +39,8 @@ const getCart = () => {
     }
     return cartObj;
 }
+
+
 const addProductToCart = name => {
     const cart = getCart();
     if (cart[name]) {
